@@ -1,0 +1,11 @@
+{
+  "presets": ["es2015", "stage-0"],
+  "env": {
+    "development": {
+      plugins: ['add-module-exports', 'transform-runtime']
+    },
+    "karma": {
+      plugins: ['add-module-exports', 'transform-runtime', 'rewire']
+    }
+  }
+}

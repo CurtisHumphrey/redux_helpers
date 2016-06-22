@@ -1,0 +1,2025 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pri",
+				"private_actions"
+			],
+			[
+				"redu",
+				"redux_actions"
+			],
+			[
+				"act",
+				"action_types_prefix"
+			],
+			[
+				"make",
+				"make_reducer_n_actions"
+			],
+			[
+				"redux",
+				"redux-actions"
+			],
+			[
+				"c",
+				"cwun	React: componentWillUnmount: fn() { ... }"
+			],
+			[
+				"be",
+				"befr	before"
+			],
+			[
+				"befo",
+				"before"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"incte",
+				"intercom_symmetrical_width	 SidePanel.scss"
+			],
+			[
+				"inter",
+				"intercom_symmetrical_width	 SidePanel.scss"
+			],
+			[
+				"renderH",
+				"renderHeroButton"
+			],
+			[
+				"is_",
+				"is_logged_in"
+			],
+			[
+				"logged",
+				"is_logged_in"
+			],
+			[
+				"des",
+				"describe"
+			],
+			[
+				"repla",
+				"replace_route"
+			],
+			[
+				"de",
+				"desc	describe"
+			],
+			[
+				"icon",
+				"icon_name"
+			],
+			[
+				"no",
+				"no_show_progress"
+			],
+			[
+				"ico",
+				"icon_name"
+			],
+			[
+				"render",
+				"renderMissionList"
+			],
+			[
+				"renderCou",
+				"renderCourseList"
+			],
+			[
+				"prop",
+				"PropTypes"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"path",
+				"path_step_slug"
+			],
+			[
+				"sub",
+				"subject_slug"
+			],
+			[
+				"fl",
+				"flex-direction"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"ds",
+				"description"
+			],
+			[
+				"Das",
+				"DashboardProgressBadge"
+			],
+			[
+				"al",
+				"always_show_course"
+			],
+			[
+				"Dash",
+				"DashboardNext"
+			],
+			[
+				"ex",
+				"example_my_path"
+			],
+			[
+				"conti",
+				"contain"
+			],
+			[
+				"dis",
+				"discription"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"d",
+				"description"
+			],
+			[
+				"rou",
+				"routeParams"
+			],
+			[
+				"next",
+				"nextProps"
+			],
+			[
+				"fet",
+				"fetch_data"
+			],
+			[
+				"path_",
+				"path_step_slug"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"meta",
+				"meta-light	 _base.scss"
+			],
+			[
+				"autho",
+				"author_email"
+			],
+			[
+				"ins",
+				"SidePanelInset	 DashboardProgressItem.scss"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"styl",
+				"styleName"
+			],
+			[
+				"spac",
+				"space-between"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"si",
+				"SidePanelInset	 DashboardProgressItem.scss"
+			],
+			[
+				"color",
+				"color_white	 MissionTextBlock.scss"
+			],
+			[
+				"color_da",
+				"color_dark_grey	 MissionVariableLine.scss"
+			],
+			[
+				"foo",
+				"footer_links"
+			],
+			[
+				"mod",
+				"modes_loaded"
+			],
+			[
+				"cle",
+				"clearTimeout"
+			],
+			[
+				"ini",
+				"initialize"
+			],
+			[
+				"scr",
+				"scrolling_count"
+			],
+			[
+				"scro",
+				"scrolling_count"
+			],
+			[
+				"cw",
+				"cwr	React: componentWillReceiveProps: fn(np) { ... }"
+			],
+			[
+				"Miss",
+				"MissionView"
+			],
+			[
+				"clos",
+				"closest_sequence"
+			],
+			[
+				"clo",
+				"closest_sequence"
+			],
+			[
+				"ch",
+				"children"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"chang",
+				"change_state"
+			],
+			[
+				"action",
+				"action_handlers"
+			],
+			[
+				"onTa",
+				"onTabChange"
+			],
+			[
+				"P",
+				"perfBar"
+			],
+			[
+				"po",
+				"possible_end_of_init"
+			],
+			[
+				"initi",
+				"initial_data"
+			],
+			[
+				"sent",
+				"sentinel"
+			],
+			[
+				"_",
+				"_scrollarea"
+			],
+			[
+				"closes",
+				"closest_node_to_gaze"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"ga",
+				"gaze_point"
+			],
+			[
+				"set_",
+				"_set_scrollarea"
+			],
+			[
+				"get",
+				"getDomRef"
+			],
+			[
+				"ha",
+				"_handleScroll"
+			],
+			[
+				"rescu",
+				"recursive_values"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"step",
+				"step_count"
+			],
+			[
+				"mi",
+				"missing_steps_before"
+			],
+			[
+				"min",
+				"min_allowed"
+			],
+			[
+				"com",
+				"computed_steps_to_render"
+			],
+			[
+				"curren",
+				"current_index"
+			],
+			[
+				"root",
+				"root_minimized"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"fir",
+				"first_mission_url"
+			],
+			[
+				"first_",
+				"first_mission"
+			],
+			[
+				"sele",
+				"selectors"
+			],
+			[
+				"mis",
+				"mission_obj"
+			],
+			[
+				"show",
+				"show_pace"
+			],
+			[
+				"Pro",
+				"PropTypes"
+			],
+			[
+				"ser",
+				"search_subjects"
+			],
+			[
+				"sea",
+				"search_subjects"
+			],
+			[
+				"sear",
+				"search_text"
+			],
+			[
+				"check_for",
+				"check_for_initial_data"
+			],
+			[
+				"cre",
+				"create_term_line"
+			],
+			[
+				"is",
+				"is_minimized"
+			],
+			[
+				"task",
+				"task_selectors"
+			],
+			[
+				"suc",
+				"success_task"
+			],
+			[
+				"el",
+				"else_loop_action"
+			],
+			[
+				"beh",
+				"behind_paywall"
+			],
+			[
+				"crea",
+				"createAction"
+			],
+			[
+				"ulr",
+				"url_base"
+			],
+			[
+				"toggle_",
+				"toggle_path"
+			],
+			[
+				"remov",
+				"remove_these"
+			],
+			[
+				"curre",
+				"current_mission"
+			],
+			[
+				"cur",
+				"current_topic"
+			],
+			[
+				"curr",
+				"current_mission"
+			],
+			[
+				"ps",
+				"position"
+			],
+			[
+				"ready",
+				"ready_next_step"
+			],
+			[
+				"catl",
+				"catalog_selectors"
+			],
+			[
+				"topic",
+				"topic_name"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"coo",
+				"color_white	 MissionTextBlock.scss"
+			],
+			[
+				"color_p",
+				"color_light_bkg_purple	 DashboardNext.scss"
+			],
+			[
+				"co",
+				"color_white	 MissionTextBlock.scss"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"defa",
+				"defaultTypes"
+			],
+			[
+				"all",
+				"all_subjects_block"
+			],
+			[
+				"tog",
+				"toggle_path"
+			],
+			[
+				"to",
+				"toggle_path"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tools/webpack.config.base.js",
+			"settings":
+			{
+				"buffer_size": 320,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dist/redux_helpers.min.js",
+			"settings":
+			{
+				"buffer_size": 7893,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 2863,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tools/webpack.config.prd.js",
+			"settings":
+			{
+				"buffer_size": 432,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/redux_helpers.js",
+			"settings":
+			{
+				"buffer_size": 1403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/redux_helpers.spec.js",
+			"settings":
+			{
+				"buffer_size": 3969,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "wr",
+		"selected_items":
+		[
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"Side Bar: Refresh"
+			],
+			[
+				"U",
+				"Convert Case: Upper Case"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"low",
+				"Convert Case: Lower Case"
+			],
+			[
+				"wal",
+				"Wallaby.js: Stop"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"",
+				"Convert Case: Upper Case"
+			],
+			[
+				"bl",
+				"Git: Blame"
+			],
+			[
+				"l",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"bla",
+				"Git: Blame"
+			],
+			[
+				"u",
+				"Convert Case: Upper Case"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+			"clear",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/humphrey/code/redux_helpers",
+		"/home/humphrey/code/redux_helpers/coverage",
+		"/home/humphrey/code/redux_helpers/dist",
+		"/home/humphrey/code/redux_helpers/tools"
+	],
+	"file_history":
+	[
+		"/home/humphrey/code/redux_helpers/dist/redux_helpers.js",
+		"/home/humphrey/code/redux_helpers/karma.config.js",
+		"/home/humphrey/code/redux_helpers/src/tools.browsers_to_saucelabs.spec.js",
+		"/home/humphrey/code/redux_helpers/src/framework.spec.js",
+		"/home/humphrey/code/es6-library-boilerplate/package.json",
+		"/home/humphrey/code/redux_helpers/.babelrc",
+		"/home/humphrey/code/redux_helpers/tools/webpack.config.base.js",
+		"/home/humphrey/code/redux_helpers/saucelab_browsers.js",
+		"/home/humphrey/code/redux_helpers/.eslintrc",
+		"/home/humphrey/code/es6-library-boilerplate/tests.webpack.js",
+		"/home/humphrey/code/dsfrontend/src/redux/utils/dq_fetch/dq_fetch.js",
+		"/home/humphrey/code/dsfrontend/src/components/MissionStepBlock/MissionStepBlock.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/catalog_progress_info/catalog_progress_info_thunks.js",
+		"/home/humphrey/code/dsfrontend/src/components/MissionSteps/MissionSteps.js",
+		"/home/humphrey/code/dsfrontend/src/components/ResizeSensor/ResizeSensor.spec.js",
+		"/home/humphrey/code/dsfrontend/src/containers/Terminal/Terminal.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/ResizeSensor/ResizeSensor.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/catalog_progress_info/catalog_progress_info.spec.js",
+		"/home/humphrey/code/dsfrontend/src/containers/MissionContent/MissionContent.scss",
+		"/home/humphrey/code/dsfrontend/src/views/CatalogPagesView/CatalogPagesView.js",
+		"/home/humphrey/code/dsfrontend/src/styles/_base.scss",
+		"/home/humphrey/code/dsfrontend/src/containers/DqFooter/DqFooter.js",
+		"/home/humphrey/code/dsfrontend/src/views/CatalogPagesView/CatalogPagesView.spec.js",
+		"/home/humphrey/code/dsfrontend/src/containers/MissionContent/MissionContent.js",
+		"/home/humphrey/code/dsfrontend/src/views/CatalogPagesView/CatalogPagesView.scss",
+		"/home/humphrey/code/dsfrontend/src/styles/_patterns.scss",
+		"/home/humphrey/code/dsfrontend/src/containers/DqFooter/DqFooter.scss",
+		"/home/humphrey/code/dsfrontend/config/_base.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/user_info/user_info_simple.js",
+		"/home/humphrey/code/dsfrontend/src/containers/MarketingCatalogProgress/MarketingCatalogProgress.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/user_info/user_info_thunks.js",
+		"/home/humphrey/code/dsfrontend/src/containers/NextMissionStepButton/NextMissionStepButton.js",
+		"/home/humphrey/code/dsfrontend/package.json",
+		"/home/humphrey/code/dsfrontend/src/containers/DqHeader/DqHeader.js",
+		"/home/humphrey/code/dsfrontend/src/containers/DashboardNext/DashboardNext.spec.js",
+		"/home/humphrey/code/dsfrontend/src/containers/DashboardNext/DashboardNext.js",
+		"/home/humphrey/code/dsfrontend/src/containers/DashboardNext/DashboardNext.scss",
+		"/home/humphrey/code/dsfrontend/src/containers/MarketingCatalogProgress/MarketingCatalogProgress.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogMissionItem/package.json",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogCourseItem/CatalogCourseItem.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogCourseItem/CatalogCourseItem.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogMissionItem/CatalogMissionItem.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogMissionItem/CatalogMissionItem.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogCourseItem/CatalogCourseItem.scss",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogSubjectOrPathStepItem/CatalogSubjectOrPathStepItem.js",
+		"/home/humphrey/code/dsfrontend/src/containers/DashboardCatalogProgress/DashboardCatalogProgress.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogSubjectOrPathStepItem/CatalogSubjectOrPathStepItem.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogSubjectOrPathStepItem/CatalogSubjectOrPathStepItem.scss",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/catalog_progress_info/catalog_progress_info_simple.js",
+		"/home/humphrey/code/dsfrontend/src/containers/DashboardCatalogProgress/DashboardCatalogProgress.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogSubjectOrPathStepItem/package.json",
+		"/home/humphrey/code/dsfrontend/src/components/CatagoryMissionItem/CatagoryMissionItem.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatagoryMissionItem/CatagoryMissionItem.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatagoryMissionItem/package.json",
+		"/home/humphrey/code/dsfrontend/src/components/DashboardProgressItem/DashboardProgressItem.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogCourseItem/package.json",
+		"/home/humphrey/code/dsfrontend/src/containers/MarketingCatalogProgress/MarketingCatalogProgress.scss",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogCourseItem/DashboardProgressCourseItem.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogCourseItem/DashboardProgressCourseItem.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/DashboardProgressItem/DashboardProgressItem.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/DashboardProgressCourseItem/DashboardProgressCourseItem.js",
+		"/home/humphrey/code/dsfrontend/src/components/CatalogMissionsList/CatalogMissionsList.js",
+		"/home/humphrey/code/dsfrontend/src/containers/DashboardCatalogProgress/DashboardCatalogProgress.scss",
+		"/home/humphrey/code/dsfrontend/src/containers/Terminal/Terminal.js",
+		"/home/humphrey/code/dsfrontend/src/containers/BlogListings/blog_posts.js",
+		"/home/humphrey/code/dsfrontend/src/containers/BlogListings/blog_posts_for_community.js",
+		"/home/humphrey/code/dsfrontend/src/views/DashboardView/DashboardView.js",
+		"/home/humphrey/code/dsfrontend/src/views/DashboardView/DashboardView.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/DashboardProgressMissionItem/DashboardProgressMissionItem.js",
+		"/home/humphrey/code/dsfrontend/src/components/DqWidget/DqWidget.spec.js",
+		"/home/humphrey/code/dsfrontend/src/routes/routes.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/catalog_progress_info/catalog_progress_info_xhr_responses.js",
+		"/home/humphrey/code/dsfrontend/src/components/DqButton/DqButton.js",
+		"/home/humphrey/code/dsfrontend/src/containers/BlogListings/BlogListings.js",
+		"/home/humphrey/code/dsfrontend/src/redux/utils/dq_fetch/dq_fetch_mock.js",
+		"/home/humphrey/code/dsfrontend/src/containers/BlogListings/BlogListings.spec.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/user_events/user_events_thunks.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/catalog_progress_info/catalog_progress_info.js",
+		"/home/humphrey/code/dsfrontend/src/redux/utils/dq_fetch/dq_fetch.spec.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/mission_info/mission_info_thunks.spec.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/mission_info/mission_info.spec.js",
+		"/home/humphrey/code/dsfrontend/src/styles/_fonts.scss",
+		"/home/humphrey/code/dsfrontend/src/layouts/CoreLayout/CoreLayout.js",
+		"/home/humphrey/code/dsfrontend/src/components/DashboardAddListItem/DashboardAddListItem.js",
+		"/home/humphrey/code/dsfrontend/src/containers/DqFooter/DqFooter.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/DqAvatar/DqAvatar.js",
+		"/home/humphrey/code/dsfrontend/src/containers/DqHeader/DqHeader.spec.js",
+		"/home/humphrey/code/dsfrontend/src/containers/BlogListings/BlogListings.scss",
+		"/home/humphrey/code/dsfrontend/src/components/DashboardAddListItem/DashboardAddListItem.spec.js",
+		"/home/humphrey/code/dsfrontend/build/webpack.config.js",
+		"/home/humphrey/code/dsfrontend/src/components/AceEditor/AceEditor.js",
+		"/home/humphrey/code/dsfrontend/src/index.esj",
+		"/home/humphrey/code/dsfrontend/src/layouts/CoreLayout/CoreLayout.spec.js",
+		"/home/humphrey/code/dsfrontend/app/styles/_colors.scss",
+		"/home/humphrey/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/humphrey/code/dsfrontend/src/components/AceEditor/AceEditor.spec.js",
+		"/home/humphrey/code/dsfrontend/node_modules/brace/mode/r.js",
+		"/home/humphrey/code/dsfrontend/node_modules/brace/mode/python.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/mission_info/mission_info_thunks.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/steps_info/steps_info_thunks.spec.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/steps_info/steps_info_thunks.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/steps_info/steps_info_simple.js",
+		"/home/humphrey/code/dsfrontend/src/containers/TaskPanels/TaskPanels.js",
+		"/home/humphrey/code/dsfrontend/src/components/MissionStepBlock/MissionStepBlock.spec.js",
+		"/home/humphrey/code/dsfrontend/src/containers/DqWidgetPanels/DqWidgetPanels.scss",
+		"/home/humphrey/code/dsfrontend/src/containers/DqWidgetPanels/DqWidgetPanels.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/steps_info/steps_info.spec.js",
+		"/home/humphrey/code/dsserver/README.md",
+		"/home/humphrey/code/dsfrontend/src/views/MissionView/MissionView.js",
+		"/home/humphrey/code/dsfrontend/src/views/MissionView/MissionView.scss",
+		"/home/humphrey/code/dsfrontend/src/views/MissionView/MissionView.spec.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/user_info/user_info.spec.js",
+		"/home/humphrey/code/dsfrontend/src/components/ReadingScroller/ReadingScroller.js",
+		"/home/humphrey/code/dsfrontend/node_modules/lolex/src/lolex-src.js",
+		"/home/humphrey/code/dsfrontend/node_modules/lolex/lolex.js",
+		"/home/humphrey/code/dsfrontend/src/redux/modules/terminal_info/terminal_info.spec.js",
+		"/home/humphrey/code/dsfrontend/src/containers/MissionContent/MissionContent.spec.js",
+		"/home/humphrey/code/dsfrontend/build/karma.conf.js",
+		"/home/humphrey/code/dsfrontend/src/components/MissionMarkup/MissionMarkup.js",
+		"/home/humphrey/code/dsfrontend/src/main.js",
+		"/home/humphrey/code/dsfrontend/server/main.js",
+		"/home/humphrey/code/dsfrontend/src/containers/EditorProjector/EditorProjector.spec.js",
+		"/home/humphrey/code/dsfrontend/src/containers/EditorProjector/EditorProjector.js",
+		"/home/humphrey/code/dsfrontend/node_modules/brace/theme/tomorrow.js",
+		"/home/humphrey/code/dsfrontend/src/containers/TerminalPanels/TerminalPanels.js",
+		"/home/humphrey/code/dsfrontend/config/_production.js",
+		"/home/humphrey/code/dsfrontend/src/containers/SidePanel/SidePanel.js",
+		"/home/humphrey/code/dsfrontend/src/containers/LessonHeader/LessonHeader.js"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"*.js,*.html,*.css,*.scss,*.json,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*,-*.tmp*,-*/node_modules/*",
+			"*.js,*.html,*.css,*.scss,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*,-*.tmp*,-*/node_modules/*",
+			"*.js,*.html,*.css,*.scss,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*,-*.tmp*",
+			"*.js,*.html,*.css,*.scss,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*,-*.tmp*",
+			"*.js,*.html,*.css,*.scss,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*,-*.tmp",
+			"*.js,*.html,*.css,*.scss,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*,-*/.tmp/",
+			"*.js,*.html,*.css,*.scss,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*",
+			"",
+			"*.*, -*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*",
+			"-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*",
+			"*.*",
+			"*.js,*.html,*.css,*.scss,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*",
+			"*.js,*.html,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*",
+			"*.js,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*",
+			"*spec.js,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*",
+			"*.js,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*",
+			"",
+			"*.js,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*,-*/dist/*",
+			"*.js,-*/node_modules/*,-*/bower_components/*,-*.min.js,-*/coverage/*",
+			"*.js,-*/node_modules/*,-*/bower_components/*",
+			"*.js,-*/node_modules/*",
+			"*.js,-*node_modules*",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Immutable",
+			"Calculator",
+			"calculator",
+			"Calculator",
+			";",
+			"update",
+			"reset",
+			"make_reducer_n_actions",
+			"reset",
+			"update",
+			"from_xhr",
+			"reset",
+			"make_simple_actions",
+			"mocha",
+			"'",
+			"then",
+			"dq_fetch_mock",
+			"clock",
+			"_change_sizes",
+			"setState",
+			"styleName",
+			" = ",
+			"set_analytics_info",
+			"accounts/users",
+			"accounts/users/3",
+			"DqButton",
+			"const wrapper = ",
+			"react-router-redux",
+			"'Helmet'",
+			"Helmet",
+			"routeParams",
+			"get_hero_info",
+			"my_path",
+			"current_topic",
+			"CatagoryMissionItem",
+			"renderCourse",
+			"renderCourseList",
+			"renderIcon",
+			"get_icon_style",
+			"icon_name",
+			"index",
+			"props.index",
+			"renderStepText",
+			"isRequired",
+			"get_icon_style",
+			"icon_name",
+			"className",
+			"current_index",
+			"DashboardProgressItem",
+			"'",
+			"item",
+			"renderList",
+			"is_a_step",
+			"get_upgrade_button_text",
+			"upgrade_hover",
+			"no_show_progress",
+			"DashboardProgressMissionItem",
+			":",
+			"index",
+			"DashboardProgressCourseItem",
+			"index",
+			"`",
+			"this.props.",
+			"renderList",
+			"is_a_step",
+			"first_load",
+			"current_index",
+			"socket_io",
+			"current_index",
+			"string",
+			"`",
+			"not_dashboard",
+			"DashboardProgressCourseItem",
+			"renderItem",
+			"renderList",
+			"'a'",
+			"renderHideShow",
+			"clean_path_steps",
+			"redirect_if_needed",
+			"DashboardCatalogProgress",
+			"first_load",
+			"current_topic",
+			"username",
+			"clean_a_subject",
+			"clean_path_steps",
+			"sessions",
+			"current_subject",
+			"my_path",
+			"current_path",
+			"should have a current_topic",
+			"descrip",
+			"{\n",
+			"discription",
+			"description",
+			"current_top",
+			"\n          description: 'Learn how to make inferences and predictions from data.',",
+			"description",
+			"clean_path_base",
+			"response_data",
+			"set_my_sujbects",
+			"set_my_path",
+			"console",
+			"69",
+			"current_indexes",
+			"mission_index",
+			"path_to_current_indexes",
+			"current_index",
+			"current_mission",
+			"subject",
+			"current_mission",
+			"current_missio",
+			"path_to_current_indexes",
+			"current_mission",
+			"current_path_course",
+			"current_mission",
+			"slug,",
+			"slug",
+			"slug})",
+			"})",
+			"setProps",
+			"course",
+			"path_step",
+			"path_slug",
+			"fetch_a_courses",
+			"fetch_a_subjects",
+			"fetch_a_courses",
+			"course",
+			"path_step"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CatalogMissionItem",
+			"CatalogSubjectOrPathStepItem",
+			"CatagoryMissionItem",
+			"CatalogCourseItem",
+			"white_green",
+			"white_emphasis",
+			"white_green",
+			"DqHeader",
+			"DqLoadingMessage",
+			"DashboardProgressItem"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/humphrey/code/redux_helpers"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tools/webpack.config.base.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"at_wb_tests_view": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dist/redux_helpers.min.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 7893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								402,
+								402
+							]
+						],
+						"settings":
+						{
+							"at_wb_tests_view": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"trim_trailing_white_space_on_save": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2863,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"at_wb_tests_view": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "tools/webpack.config.prd.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"at_wb_tests_view": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/redux_helpers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"at_wb_tests_view": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/redux_helpers.spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2067,
+								2067
+							]
+						],
+						"settings":
+						{
+							"at_wb_tests_view": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1311.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.485322271857,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.wallabyjs":
+	{
+		"height": 0.0
+	},
+	"output.wallabyjs_console":
+	{
+		"height": 168.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"kar",
+				"karma.config.js"
+			],
+			[
+				"pack",
+				"es6-library-boilerplate/package.json"
+			],
+			[
+				"catproinfoth",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info_thunks.js"
+			],
+			[
+				"catproinfsp",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info.spec.js"
+			],
+			[
+				"resize",
+				"src/components/ResizeSensor/ResizeSensor.js"
+			],
+			[
+				"resizes",
+				"src/components/ResizeSensor/ResizeSensor.js"
+			],
+			[
+				"misssteps",
+				"src/components/MissionSteps/MissionSteps.js"
+			],
+			[
+				"missionstep",
+				"src/components/MissionSteps/MissionSteps.js"
+			],
+			[
+				"dqfo",
+				"src/containers/DqFooter/DqFooter.scss"
+			],
+			[
+				"basescss",
+				"src/styles/_base.scss"
+			],
+			[
+				"_base",
+				"config/_base.js"
+			],
+			[
+				"capviscs",
+				"src/views/CatalogPagesView/CatalogPagesView.scss"
+			],
+			[
+				"basescs",
+				"src/styles/_base.scss"
+			],
+			[
+				"patterns",
+				"src/styles/_patterns.scss"
+			],
+			[
+				"misconscss",
+				"src/containers/MissionContent/MissionContent.scss"
+			],
+			[
+				"user_info",
+				"src/redux/modules/user_info/user_info_simple.js"
+			],
+			[
+				"catpagvi",
+				"src/views/CatalogPagesView/CatalogPagesView.js"
+			],
+			[
+				"catpavi",
+				"src/views/CatalogPagesView/CatalogPagesView.spec.js"
+			],
+			[
+				"dasnextsp",
+				"src/containers/DashboardNext/DashboardNext.spec.js"
+			],
+			[
+				"packag",
+				"package.json"
+			],
+			[
+				"ccouitem",
+				"src/components/CatalogCourseItem/CatalogCourseItem.js"
+			],
+			[
+				"mcpspe",
+				"src/containers/MarketingCatalogProgress/MarketingCatalogProgress.spec.js"
+			],
+			[
+				"dpritem",
+				"src/components/DashboardProgressItem/DashboardProgressItem.js"
+			],
+			[
+				"markca",
+				"src/containers/MarketingCatalogProgress/MarketingCatalogProgress.js"
+			],
+			[
+				"mcaproscs",
+				"src/containers/MarketingCatalogProgress/MarketingCatalogProgress.scss"
+			],
+			[
+				"dcaprscs",
+				"src/containers/DashboardCatalogProgress/DashboardCatalogProgress.scss"
+			],
+			[
+				"termi",
+				"src/containers/Terminal/Terminal.js"
+			],
+			[
+				"capascss",
+				"src/views/CatalogPagesView/CatalogPagesView.scss"
+			],
+			[
+				"capavisp",
+				"src/views/CatalogPagesView/CatalogPagesView.spec.js"
+			],
+			[
+				"capagvi",
+				"src/views/CatalogPagesView/CatalogPagesView.js"
+			],
+			[
+				"dashnext",
+				"src/containers/DashboardNext/DashboardNext.js"
+			],
+			[
+				"dasnexspe",
+				"src/containers/DashboardNext/DashboardNext.spec.js"
+			],
+			[
+				"dash",
+				"src/containers/DashboardNext/DashboardNext.js"
+			],
+			[
+				"dqwi",
+				"src/components/DqWidget/DqWidget.spec.js"
+			],
+			[
+				"progrinfo",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info_simple.js"
+			],
+			[
+				"cpavisc",
+				"src/views/CatalogPagesView/CatalogPagesView.scss"
+			],
+			[
+				"dashc",
+				"src/containers/DashboardCatalogProgress/DashboardCatalogProgress.spec.js"
+			],
+			[
+				"dviewspe",
+				"src/views/DashboardView/DashboardView.spec.js"
+			],
+			[
+				"dashboardv",
+				"src/views/DashboardView/DashboardView.js"
+			],
+			[
+				"catavie",
+				"src/views/CatalogPagesView/CatalogPagesView.js"
+			],
+			[
+				"caprthun",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info_thunks.js"
+			],
+			[
+				"routes",
+				"src/routes/routes.js"
+			],
+			[
+				"catprox",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info_xhr_responses.js"
+			],
+			[
+				"progressimple",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info_simple.js"
+			],
+			[
+				"progresspec",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info.spec.js"
+			],
+			[
+				"dashboardn",
+				"src/containers/DashboardNext/DashboardNext.js"
+			],
+			[
+				"dq_fet",
+				"src/redux/utils/dq_fetch/dq_fetch.js"
+			],
+			[
+				"dq_fe",
+				"src/redux/utils/dq_fetch/dq_fetch_mock.js"
+			],
+			[
+				"cprothunk",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info_thunks.js"
+			],
+			[
+				"capagv",
+				"src/views/CatalogPagesView/CatalogPagesView.js"
+			],
+			[
+				"dq_fesp",
+				"src/redux/utils/dq_fetch/dq_fetch.spec.js"
+			],
+			[
+				"caprispec",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info.spec.js"
+			],
+			[
+				"capv",
+				"src/views/CatalogPagesView/CatalogPagesView.spec.js"
+			],
+			[
+				"terminspe",
+				"src/containers/Terminal/Terminal.spec.js"
+			],
+			[
+				"dq_fet_m",
+				"src/redux/utils/dq_fetch/dq_fetch_mock.js"
+			],
+			[
+				"misinfosp",
+				"src/redux/modules/mission_info/mission_info.spec.js"
+			],
+			[
+				"blog",
+				"src/containers/BlogListings/blog_posts.js"
+			],
+			[
+				"catinfosim",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info_simple.js"
+			],
+			[
+				"catsimp",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info_simple.js"
+			],
+			[
+				"blog_s",
+				"src/containers/BlogListings/blog_posts.js"
+			],
+			[
+				"bloglist",
+				"src/containers/BlogListings/BlogListings.spec.js"
+			],
+			[
+				"_base.cs",
+				"src/styles/_base.scss"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"term",
+				"src/containers/Terminal/Terminal.js"
+			],
+			[
+				"index.esj",
+				"src/index.esj"
+			],
+			[
+				"dalispec",
+				"src/components/DashboardAddListItem/DashboardAddListItem.spec.js"
+			],
+			[
+				"dashaddlistitem",
+				"src/components/DashboardAddListItem/DashboardAddListItem.js"
+			],
+			[
+				"aceedit",
+				"src/components/AceEditor/AceEditor.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"route",
+				"src/routes/routes.js"
+			],
+			[
+				"dqhea",
+				"src/containers/DqHeader/DqHeader.spec.js"
+			],
+			[
+				"bloglistsc",
+				"src/containers/BlogListings/BlogListings.scss"
+			],
+			[
+				"colorscs",
+				"app/styles/_colors.scss"
+			],
+			[
+				"catap",
+				"src/views/CatalogPagesView/CatalogPagesView.scss"
+			],
+			[
+				"fontsscs",
+				"src/styles/_fonts.scss"
+			],
+			[
+				"brace/mode/r",
+				"node_modules/brace/mode/r.js"
+			],
+			[
+				"dqfetch",
+				"src/redux/utils/dq_fetch/dq_fetch.js"
+			],
+			[
+				"brace/mode/pyth",
+				"node_modules/brace/mode/python.js"
+			],
+			[
+				"misscontent",
+				"src/containers/MissionContent/MissionContent.js"
+			],
+			[
+				"taskpane",
+				"src/containers/TaskPanels/TaskPanels.js"
+			],
+			[
+				"dqwid",
+				"src/containers/DqWidgetPanels/DqWidgetPanels.scss"
+			],
+			[
+				"dqw",
+				"src/containers/DqWidgetPanels/DqWidgetPanels.js"
+			],
+			[
+				"step_info",
+				"src/redux/modules/steps_info/steps_info.spec.js"
+			],
+			[
+				"misvi",
+				"src/views/MissionView/MissionView.js"
+			],
+			[
+				"miviscs",
+				"src/views/MissionView/MissionView.scss"
+			],
+			[
+				"misvispec",
+				"src/views/MissionView/MissionView.spec.js"
+			],
+			[
+				"dasviesp",
+				"src/views/DashboardView/DashboardView.spec.js"
+			],
+			[
+				"userinfspec",
+				"src/redux/modules/user_info/user_info.spec.js"
+			],
+			[
+				"userinfothn",
+				"src/redux/modules/user_info/user_info_thunks.js"
+			],
+			[
+				"terspec",
+				"src/containers/Terminal/Terminal.spec.js"
+			],
+			[
+				"readscr",
+				"src/components/ReadingScroller/ReadingScroller.js"
+			],
+			[
+				"ckage",
+				"package.json"
+			],
+			[
+				"lolex-",
+				"node_modules/lolex/src/lolex-src.js"
+			],
+			[
+				"package.",
+				"package.json"
+			],
+			[
+				"lolex",
+				"node_modules/lolex/lolex.js"
+			],
+			[
+				"terinalspe",
+				"src/containers/Terminal/Terminal.spec.js"
+			],
+			[
+				"termina",
+				"src/containers/Terminal/Terminal.js"
+			],
+			[
+				"stepinfothunk",
+				"src/redux/modules/steps_info/steps_info_thunks.js"
+			],
+			[
+				"stepsinfth",
+				"src/redux/modules/steps_info/steps_info_thunks.spec.js"
+			],
+			[
+				"missionconspe",
+				"src/containers/MissionContent/MissionContent.spec.js"
+			],
+			[
+				"missionviespe",
+				"src/views/MissionView/MissionView.spec.js"
+			],
+			[
+				"missioncon",
+				"src/containers/MissionContent/MissionContent.js"
+			],
+			[
+				"missvie",
+				"src/views/MissionView/MissionView.js"
+			],
+			[
+				"main",
+				"src/main.js"
+			],
+			[
+				"karma",
+				"build/karma.conf.js"
+			],
+			[
+				"brace/theme/tomo",
+				"node_modules/brace/theme/tomorrow.js"
+			],
+			[
+				"editor",
+				"src/containers/EditorProjector/EditorProjector.spec.js"
+			],
+			[
+				"readsco",
+				"src/components/ReadingScroller/ReadingScroller.js"
+			],
+			[
+				"das",
+				"src/views/DashboardView/DashboardView.js"
+			],
+			[
+				"missionstepblo",
+				"src/components/MissionStepBlock/MissionStepBlock.js"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"sidepan",
+				"src/containers/SidePanel/SidePanel.js"
+			],
+			[
+				"misstepbl",
+				"src/components/MissionStepBlock/MissionStepBlock.js"
+			],
+			[
+				"lessonhe",
+				"src/containers/LessonHeader/LessonHeader.js"
+			],
+			[
+				"reading",
+				"src/components/ReadingScroller/ReadingScroller.js"
+			],
+			[
+				"dashvsc",
+				"src/views/DashboardView/DashboardView.scss"
+			],
+			[
+				"missviscs",
+				"src/views/MissionView/MissionView.scss"
+			],
+			[
+				"sidpane",
+				"src/containers/SidePanel/SidePanel.js"
+			],
+			[
+				"sidpan",
+				"src/containers/SidePanel/SidePanel.spec.js"
+			],
+			[
+				"sidepane",
+				"src/containers/SidePanel/SidePanel.js"
+			],
+			[
+				"resspec",
+				"src/components/ReadingScroller/ReadingScroller.spec.js"
+			],
+			[
+				"missstejs",
+				"src/components/MissionSteps/MissionSteps.js"
+			],
+			[
+				"dvjs",
+				"src/views/DashboardView/DashboardView.js"
+			],
+			[
+				"opft",
+				"src/containers/OnboardingPickFirstTopic/OnboardingPickFirstTopic.js"
+			],
+			[
+				"cataproinfsim",
+				"src/redux/modules/catalog_progress_info/catalog_progress_info_simple.js"
+			],
+			[
+				"dalitemsc",
+				"src/components/DashboardAddListItem/DashboardAddListItem.scss"
+			],
+			[
+				"dalsc",
+				"src/components/DashboardAddList/DashboardAddList.scss"
+			],
+			[
+				"dasadspe",
+				"src/components/DashboardAddList/DashboardAddList.spec.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
