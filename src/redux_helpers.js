@@ -26,11 +26,12 @@ export function make_reducer_n_actions ({
   private_handlers = {},
   action_types_prefix,
   initial_state,
+  Immutable,
 }) {
   const all_handlers = {...public_handlers, ...private_handlers}
   const reducer = handleActions(
     _.mapKeys(all_handlers, (handler, key) => `${action_types_prefix}${key}`),
-    initial_state
+    Immutable(initial_state)
   )
 
   const actions = _.mapValues(public_handlers, (handler, key) => createAction(`${action_types_prefix}${key}`))

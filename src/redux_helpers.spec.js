@@ -71,7 +71,7 @@ describe('redux_helpers', () => {
     })
     xit('should return a reducer with public_handlers made from handleActions', () => {
       sandbox.stub(redux_actions, 'handleActions')
-      make_reducer_n_actions({public_handlers, action_types_prefix, initial_state})
+      make_reducer_n_actions({public_handlers, action_types_prefix, initial_state, Immutable})
 
       const mapped_reducers = _.mapKeys(public_handlers, (handler, key) => `${action_types_prefix}${key}`)
       expect(redux_actions.handleActions)
@@ -79,7 +79,7 @@ describe('redux_helpers', () => {
     })
     xit('should return a reducer with private_handlers made from handleActions', () => {
       sandbox.stub(redux_actions, 'handleActions')
-      make_reducer_n_actions({public_handlers, private_handlers, action_types_prefix, initial_state})
+      make_reducer_n_actions({public_handlers, private_handlers, action_types_prefix, initial_state, Immutable})
 
       const mapped_reducers = _.mapKeys(
         {...public_handlers, ...private_handlers},
@@ -90,7 +90,7 @@ describe('redux_helpers', () => {
     })
     it('should return mapped actions and private_actions', () => {
       const {actions, private_actions} = make_reducer_n_actions(
-        {public_handlers, private_handlers, action_types_prefix, initial_state}
+        {public_handlers, private_handlers, action_types_prefix, initial_state, Immutable}
       )
       expect(actions.reset('test')).to.eql(redux_actions.createAction('actions/reset')('test'))
       expect(actions.update('test')).to.eql(redux_actions.createAction('actions/update')('test'))
@@ -99,7 +99,7 @@ describe('redux_helpers', () => {
     })
     it('should return ACTION_TYPES', () => {
       const {ACTION_TYPES} = make_reducer_n_actions(
-        {public_handlers, private_handlers, action_types_prefix, initial_state}
+        {public_handlers, private_handlers, action_types_prefix, initial_state, Immutable}
       )
       expect(ACTION_TYPES).to.eql({
         'reset': 'actions/reset',
