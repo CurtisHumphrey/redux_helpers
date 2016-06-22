@@ -3,7 +3,6 @@ import {
   createAction,
   handleActions,
 } from 'redux-actions'
-import Immutable from 'seamless-immutable'
 
 export function make_simple_reducer (key) {
   const path = (!_.isArray(key)) ? [key] : key
@@ -31,7 +30,7 @@ export function make_reducer_n_actions ({
   const all_handlers = {...public_handlers, ...private_handlers}
   const reducer = handleActions(
     _.mapKeys(all_handlers, (handler, key) => `${action_types_prefix}${key}`),
-    Immutable(initial_state)
+    initial_state
   )
 
   const actions = _.mapValues(public_handlers, (handler, key) => createAction(`${action_types_prefix}${key}`))

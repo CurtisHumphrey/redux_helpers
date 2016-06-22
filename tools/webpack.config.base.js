@@ -8,12 +8,15 @@ module.exports = {
   },
   output: {
     libraryTarget: 'umd',
-    library: 'redux_helpers',
   },
+  externals: [
+    'lodash',
+    'redux-actions',
+  ],
   resolve: {
     extensions: [
       '',
       '.js',
     ],
   },
-};
+}
