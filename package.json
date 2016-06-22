@@ -1,11 +1,11 @@
 {
-  "name": "es6-library-boilerplate",
+  "name": "redux_helpers",
   "version": "0.4.0",
-  "description": "Boilerplate for ES6 client-based library. Uses Babel and webpack for transpiling and building, Karma and Mocha/Chai for unit testing, and Istanbul/Isparta for code coverage.",
-  "main": "dist/calculator.js",
+  "description": "Helpers for redux that follow a simpified pattern",
+  "main": "dist/redux_helpers.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CurtisHumphrey/es6-library-boilerplate"
+    "url": "https://github.com/CurtisHumphrey/redux_helpers"
   },
   "scripts": {
     "build": "npm run lint && npm run test && npm run clean && npm run build:dev && npm run build:prd",
