@@ -20,6 +20,16 @@ export function make_simple_selectors (parts, BASE) {
     return state[BASE][key]
   })
 }
+export function make_array_based_selectors (parts, array_selector, prop_key) {
+  return _.mapValues(parts, (default_value, key) => (state, props) => {
+    if (props == null || props[prop_key] == null) {
+      throw new Error(`Selector ${key} is missing a prop of ${prop_key}`)
+    }
+    const array = array_selector(state)
+    const array_index = props[prop_key]
+    return _.get(array, [array_index, key], default_value)
+  })
+}
 
 export function make_reducer_n_actions ({
   public_handlers = {},

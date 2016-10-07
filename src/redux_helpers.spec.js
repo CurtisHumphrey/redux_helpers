@@ -2,6 +2,7 @@ import {
   make_simple_reducer,
   make_toggle_reducer,
   make_simple_selectors,
+  make_array_based_selectors,
   make_reducer_n_actions,
 } from './redux_helpers'
 import * as redux_actions from 'redux-actions'
@@ -49,6 +50,26 @@ describe('redux_helpers', () => {
     const selectors = make_simple_selectors(state, 'BASE')
     expect(selectors.a_key({BASE:state})).to.eql(false)
     expect(selectors.different_key({BASE:state})).to.eql(state.different_key)
+  })
+  it('make_array_based_selectors should return an object with each key = a selector', () => {
+    const parts = Immutable({
+      a_key: false,
+      different_key: 123,
+    })
+    const full_state = Immutable({
+      array: [{
+        a_key: true,
+        different_key: 456,
+      }],
+    })
+    const array_selector = (state) => state.BASE.array
+    const selectors = make_array_based_selectors(parts, array_selector, 'index')
+    // when exists
+    expect(selectors.a_key({BASE:full_state}, {index:0})).to.eql(true)
+    expect(selectors.different_key({BASE:full_state}, {index:0})).to.eql(full_state.array[0].different_key)
+    // defaults
+    expect(selectors.a_key({BASE:full_state}, {index:1})).to.eql(false)
+    expect(selectors.different_key({BASE:full_state}, {index:1})).to.eql(parts.different_key)
   })
   describe('make_reducer_n_actions', () => {
     let public_handlers
