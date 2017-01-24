@@ -1,6 +1,6 @@
 {
   "name": "redux_helpers",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Helpers for redux that follow a simpified pattern",
   "main": "dist/redux_helpers.min.js",
   "repository": {

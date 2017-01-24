@@ -6,7 +6,6 @@ import {
   make_reducer_n_actions,
 } from './redux_helpers'
 import * as redux_actions from 'redux-actions'
-import _ from 'lodash'
 
 import Immutable from 'seamless-immutable'
 
@@ -74,56 +73,103 @@ describe('redux_helpers', () => {
   describe('make_reducer_n_actions', () => {
     let public_handlers
     let private_handlers
+    let other_handlers
     let action_types_prefix
     let initial_state
     beforeEach(() => {
       initial_state = {
         a_key: false,
+        b_key: false,
         different_key: 123,
       }
       public_handlers = {
-        reset: () => Immutable(initial_state),
         update: make_simple_reducer('a_key'),
       }
       private_handlers = {
         from_xhr: make_simple_reducer('different_key'),
       }
+      other_handlers = {
+        action_from_elsewhere: make_simple_reducer('b_key'),
+      }
       action_types_prefix = 'actions/'
     })
-    xit('should return a reducer with public_handlers made from handleActions', () => {
-      sandbox.stub(redux_actions, 'handleActions')
-      make_reducer_n_actions({public_handlers, action_types_prefix, initial_state, Immutable})
+    it('should return a reducer with public_handlers made from handleActions', () => {
+      const {reducer} = make_reducer_n_actions({public_handlers, action_types_prefix, initial_state, Immutable})
 
-      const mapped_reducers = _.mapKeys(public_handlers, (handler, key) => `${action_types_prefix}${key}`)
-      expect(redux_actions.handleActions)
-        .to.be.calledWith(mapped_reducers, Immutable(initial_state))
+      expect(reducer(undefined, {})).to.eql(initial_state)
+      expect(reducer(undefined, redux_actions.createAction('actions/update')(true))).to.eql({
+        ...initial_state,
+        a_key: true,
+      })
     })
-    xit('should return a reducer with private_handlers made from handleActions', () => {
-      sandbox.stub(redux_actions, 'handleActions')
-      make_reducer_n_actions({public_handlers, private_handlers, action_types_prefix, initial_state, Immutable})
+    it('should return a reducer with private_handlers made from handleActions', () => {
+      const {reducer} = make_reducer_n_actions({
+        public_handlers,
+        private_handlers,
+        action_types_prefix,
+        initial_state,
+        Immutable,
+      })
 
-      const mapped_reducers = _.mapKeys(
-        {...public_handlers, ...private_handlers},
-        (handler, key) => `${action_types_prefix}${key}`
-      )
-      expect(redux_actions.handleActions)
-        .to.be.calledWith(mapped_reducers, Immutable(initial_state))
+      expect(reducer(undefined, {})).to.eql(initial_state)
+      expect(reducer(undefined, redux_actions.createAction('actions/update')(true))).to.eql({
+        ...initial_state,
+        a_key: true,
+      })
+      expect(reducer(undefined, redux_actions.createAction('actions/from_xhr')(1))).to.eql({
+        ...initial_state,
+        different_key: 1,
+      })
+    })
+    it('should return a reducer with other_handlers made from handleActions', () => {
+      const {reducer} = make_reducer_n_actions({
+        public_handlers,
+        private_handlers,
+        other_handlers,
+        action_types_prefix,
+        initial_state,
+        Immutable,
+      })
+
+      expect(reducer(undefined, {})).to.eql(initial_state)
+      expect(reducer(undefined, redux_actions.createAction('actions/update')(true))).to.eql({
+        ...initial_state,
+        a_key: true,
+      })
+      expect(reducer(undefined, redux_actions.createAction('actions/from_xhr')(1))).to.eql({
+        ...initial_state,
+        different_key: 1,
+      })
+      expect(reducer(undefined, redux_actions.createAction('action_from_elsewhere')(true))).to.eql({
+        ...initial_state,
+        b_key: true,
+      })
     })
     it('should return mapped actions and private_actions', () => {
-      const {actions, private_actions} = make_reducer_n_actions(
-        {public_handlers, private_handlers, action_types_prefix, initial_state, Immutable}
-      )
-      expect(actions.reset('test')).to.eql(redux_actions.createAction('actions/reset')('test'))
+      const {actions, private_actions} = make_reducer_n_actions({
+        public_handlers,
+        private_handlers,
+        other_handlers,
+        action_types_prefix,
+        initial_state,
+        Immutable,
+      })
       expect(actions.update('test')).to.eql(redux_actions.createAction('actions/update')('test'))
-
       expect(private_actions.from_xhr('test')).to.eql(redux_actions.createAction('actions/from_xhr')('test'))
+
+      expect(actions.action_from_elsewhere).to.not.exist
+      expect(private_actions.action_from_elsewhere).to.not.exist
     })
     it('should return ACTION_TYPES', () => {
-      const {ACTION_TYPES} = make_reducer_n_actions(
-        {public_handlers, private_handlers, action_types_prefix, initial_state, Immutable}
-      )
+      const {ACTION_TYPES} = make_reducer_n_actions({
+        public_handlers,
+        private_handlers,
+        other_handlers,
+        action_types_prefix,
+        initial_state,
+        Immutable,
+      })
       expect(ACTION_TYPES).to.eql({
-        'reset': 'actions/reset',
         'update': 'actions/update',
         'from_xhr': 'actions/from_xhr',
       })

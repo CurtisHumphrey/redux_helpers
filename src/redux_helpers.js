@@ -34,13 +34,17 @@ export function make_array_based_selectors (parts, array_selector, prop_key) {
 export function make_reducer_n_actions ({
   public_handlers = {},
   private_handlers = {},
+  other_handlers = {},
   action_types_prefix,
   initial_state,
   Immutable,
 }) {
   const all_handlers = {...public_handlers, ...private_handlers}
   const reducer = handleActions(
-    _.mapKeys(all_handlers, (handler, key) => `${action_types_prefix}${key}`),
+    {
+      ..._.mapKeys(all_handlers, (handler, key) => `${action_types_prefix}${key}`),
+      ...other_handlers,
+    },
     Immutable(initial_state)
   )
 
