@@ -4,6 +4,9 @@ import {
   handleActions,
 } from 'redux-actions'
 
+export const get_only_props = (Component, selectors) => _.chain({})
+  .assign(...selectors).pickBy((v, key) => Component.propTypes[key] != null).value()
+
 export function make_simple_reducer (key) {
   const path = (!_.isArray(key)) ? [key] : key
   return (state, {payload}) => state.setIn(path, payload)
