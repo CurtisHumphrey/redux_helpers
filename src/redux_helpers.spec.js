@@ -18,36 +18,6 @@ describe('redux_helpers', () => {
   afterEach(() => {
     sandbox.restore()
   })
-  it('get_only_props should merge selectors and then filter based on Component.propTypes', () => {
-    const selectors_A_from_redux = {
-      name: (state) => 'name',
-      id: (state) => 'id',
-    }
-    const selectors_B_from_redux = {
-      mode: (state) => 'name',
-      id: (state) => 'id',
-    }
-
-    const make_selectors = () => get_only_props(Component, [
-      selectors_A_from_redux,
-      selectors_B_from_redux,
-      {
-        renamed: selectors_B_from_redux.id,
-      },
-    ])
-    const Component = () => {}
-    Component.propTypes = {
-      name: 'some validator',
-      mode: 'some validator',
-      renamed: 'some validator',
-    }
-
-    expect(make_selectors()).to.eql({
-      name: selectors_A_from_redux.name,
-      mode: selectors_B_from_redux.mode,
-      renamed: selectors_B_from_redux.id,
-    })
-  })
   it('make_simple_reducer should return a function that sets the payload at key', () => {
     const state = Immutable({
       a_key: false,
