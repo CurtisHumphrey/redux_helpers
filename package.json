@@ -1,6 +1,6 @@
 {
   "name": "redux_helpers",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Helpers for redux that follow a simpified pattern",
   "main": "dist/redux_helpers.min.js",
   "repository": {
@@ -84,6 +84,7 @@
   },
   "dependencies": {
     "babel-plugin-transform-runtime": "^6.5.2",
+    "function-params": "^0.1.0",
     "lodash": "^4.13.1",
     "redux-actions": "^0.10.0"
   }

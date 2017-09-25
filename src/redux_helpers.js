@@ -3,6 +3,7 @@ import {
   createAction,
   handleActions,
 } from 'redux-actions'
+import functionParams from 'function-params'
 
 export function make_simple_reducer (key) {
   const path = (!_.isArray(key)) ? [key] : key
@@ -31,6 +32,15 @@ export function make_array_based_selectors (parts, array_selector, prop_key) {
   })
 }
 
+const PAYLOAD_INDEX = 2
+const make_action = (action_types_prefix) => (handler, key) => {
+  const type = `${action_types_prefix}${key}`
+  if (functionParams(handler).length < PAYLOAD_INDEX) {
+    return () => ({ type })
+  }
+  return createAction(type)
+}
+
 export function make_reducer_n_actions ({
   public_handlers = {},
   private_handlers = {},
@@ -48,9 +58,9 @@ export function make_reducer_n_actions ({
     Immutable(initial_state)
   )
 
-  const actions = _.mapValues(public_handlers, (handler, key) => createAction(`${action_types_prefix}${key}`))
+  const actions = _.mapValues(public_handlers, make_action(action_types_prefix))
 
-  const private_actions = _.mapValues(private_handlers, (handler, key) => createAction(`${action_types_prefix}${key}`))
+  const private_actions = _.mapValues(private_handlers, make_action(action_types_prefix))
 
   const ACTION_TYPES = _.mapValues(all_handlers, (handler, key) => `${action_types_prefix}${key}`)
 

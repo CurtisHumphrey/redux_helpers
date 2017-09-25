@@ -1,5 +1,4 @@
 import {
-  get_only_props,
   make_simple_reducer,
   make_toggle_reducer,
   make_simple_selectors,
@@ -85,6 +84,7 @@ describe('redux_helpers', () => {
       }
       public_handlers = {
         update: make_simple_reducer('a_key'),
+        no_payload: (state) => state,
       }
       private_handlers = {
         from_xhr: make_simple_reducer('different_key'),
@@ -93,6 +93,12 @@ describe('redux_helpers', () => {
         action_from_elsewhere: make_simple_reducer('b_key'),
       }
       action_types_prefix = 'actions/'
+    })
+    it('should return an action "no_payload" that does not pass on the payload', () => {
+      const {actions} = make_reducer_n_actions({public_handlers, action_types_prefix, initial_state, Immutable})
+      expect(actions.no_payload('testing')).to.eql({
+        type: 'actions/no_payload',
+      })
     })
     it('should return a reducer with public_handlers made from handleActions', () => {
       const {reducer} = make_reducer_n_actions({public_handlers, action_types_prefix, initial_state, Immutable})
@@ -172,6 +178,7 @@ describe('redux_helpers', () => {
       })
       expect(ACTION_TYPES).to.eql({
         'update': 'actions/update',
+        'no_payload': 'actions/no_payload',
         'from_xhr': 'actions/from_xhr',
       })
     })
